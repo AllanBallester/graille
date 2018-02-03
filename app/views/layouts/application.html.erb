@@ -3,11 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Three - Startup Incubator </title>
+    <title>Three | Intrapreneur Incubator </title>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+  <meta property="og:title" content="Three | Intrapreneur Incubator">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://www.threeincubator.com/">
+  <meta property="og:image" content="http://res.cloudinary.com/dk9kkvy1o/image/upload/v1517692711/threemeta_mik3bq.jpg">
+  <meta property="og:description" content="Three cure the isane fail's rate of Intrapreneurs from 0 to 1. Start your intrapreneurship journey with us now and for free.">
+  <meta property="og:site_name" content="Three ">
+
+  <%= favicon_link_tag 'rocket.png' %>
+
   </head>
   <body>
      <%= render 'shared/navbar' %>
