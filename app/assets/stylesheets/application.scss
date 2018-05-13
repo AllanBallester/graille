@@ -65,6 +65,16 @@ h6 {
   text-align: center;
 }
 
+.banner2 {
+  background-size: cover;
+/*  background :linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+*/height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
 .descriptionhome {
 img {
   height: 100%;

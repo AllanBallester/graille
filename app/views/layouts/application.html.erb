@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2Q05VtKEue0J08Cw9pFcTIpUikJl4wtI&callback=initMap">
+    </script>
+
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   <meta property="og:title" content="Sheepy | Bring singularities back.">
   <meta property="og:type" content="article">
@@ -42,6 +46,10 @@
 
   </head>
   <body>
+
+    <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js" %>
+
      <%= render 'shared/navbar' %>
     <%= yield %>
     <%= javascript_include_tag 'application' %>
