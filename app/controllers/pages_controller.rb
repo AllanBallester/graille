@@ -6,7 +6,7 @@ class PagesController < ApplicationController
   location: "SAUVEGARDE DU NORD - PARIS ",
   picture: "http://res.cloudinary.com/dk9kkvy1o/image/upload/v1530036611/florian_uin9ue.jpg"},
   {name: "Rachel" ,
-  description: "Alex send me a request and curiously was coming for the same conference like me in Lille. We took this opportunity to share our ideas, networks and even start to co-create together . We could connect more and become close friends !",
+  description: "Alex send me a request and suprisingly was attending the same conference like me in Lille. We took this opportunity to share our ideas, networks and even start to co-create together . We could connect more and become close friends !",
   location: "LEROY MERLIN - LILLE",
   picture: "http://res.cloudinary.com/dk9kkvy1o/image/upload/v1530036549/rachel_ee6nix.jpg"},
   { name: "Vishal",
