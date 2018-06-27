@@ -2,7 +2,7 @@ class PagesController < ApplicationController
 
   def home
       @feedbacks = [{name: "Florian",
-  description: " I was worried about my approximative English level and my constraining work hours but finally, I lived this experience as an exchange an not just welcoming someone. Even more, it was a travel with my guest in his own culture." ,
+  description: " I was worried about my approximative English level and my constraining work hours but finally, I lived this experience as an exchange and not just welcoming someone. Even more, it was a travel with my guest in his own culture." ,
   location: "SAUVEGARDE DU NORD - PARIS ",
   picture: "http://res.cloudinary.com/dk9kkvy1o/image/upload/v1530036611/florian_uin9ue.jpg"},
   {name: "Rachel" ,
