@@ -1,17 +1,17 @@
 class PagesController < ApplicationController
 
   def home
-      @feedbacks = [{name: "Florian",
-  description: " I was worried about my approximative English level and my constraining work hours but finally, I lived this experience as an exchange and not just welcoming someone. Even more, it was a travel with my guest in his own culture." ,
-  location: "SAUVEGARDE DU NORD - PARIS ",
-  picture: "http://res.cloudinary.com/dk9kkvy1o/image/upload/v1530036611/florian_uin9ue.jpg"},
-  {name: "Rachel" ,
-  description: "Alex send me a request and suprisingly was attending the same conference like me in Lille. We took this opportunity to share our ideas, networks and even start to co-create together . We could connect more and become close friends !",
-  location: "LEROY MERLIN - LILLE",
-  picture: "http://res.cloudinary.com/dk9kkvy1o/image/upload/v1530036549/rachel_ee6nix.jpg"},
-  { name: "Vishal",
-  description: "I felt like a family member from the moment I entered the house thanks to the way I’ve been welcomed. He allowed me to be myself at his house and I could discover his culture, his city .. things I would never have experienced staying in hotels." ,
-  location: "DECATHLON - BENGALURU ",
-  picture: "http://res.cloudinary.com/dk9kkvy1o/image/upload/v1530036503/vishal_bidcpa.jpg"}]
+      @feedbacks = [{name: "Julia",
+  description: "J’ai commencé à avoir des doutes lorsque mon copain passait son temps à verrouiller son téléphone quand j’approchais. Grâce à Cheat, j’ai pu découvrir de manière anonyme qu’il envoyait régulièrement des dick pics sur Snapchat." ,
+  location: "LILLE - HAUT DE FRANCE ",
+  picture: "http://res.cloudinary.com/dk9kkvy1o/image/upload/v1537003993/Screen_Shot_2018-09-15_at_11.33.03_ibefr3.png"},
+  {name: "Nicolas" ,
+  description: "Ma femme avait de plus en plus de “réunions”. J’avais clairement l’impression que ça cachait quelque chose. Grâce à cheat, le doute a été levé. Cheat a trouvé une photo de ma femme en soirée sur les réseaux sociaux alors qu’elle prétendait être en voyage d’affaires.",
+  location: "ROUEN - NORMANDIE",
+  picture: "http://res.cloudinary.com/dk9kkvy1o/image/upload/v1537004162/Screen_Shot_2018-09-15_at_11.35.51_gzaqw7.png"},
+  { name: "Nathalie",
+  description: "J’ai perdu trop de temps sur les sites de rencontres avec des hommes qui gèrent plusieurs relations en même temps. Maintenant j’utilise Cheat pour vérifier le sérieux de mes futures rencontre avant de m’engager. Les hommes nous font perdre un temps." ,
+  location: "NIORT - NOUVELLE-AQUITAINE ",
+  picture: "http://res.cloudinary.com/dk9kkvy1o/image/upload/v1537004091/Screen_Shot_2018-09-15_at_11.34.48_d1lgie.png"}]
   end
 end
