@@ -1,17 +1,17 @@
 class PagesController < ApplicationController
 
   def home
-      @feedbacks = [{name: "Julia",
-  description: "J’ai commencé à avoir des doutes lorsque mon copain passait son temps à verrouiller son téléphone quand j’approchais. Grâce à Cheat, j’ai pu découvrir de manière anonyme qu’il envoyait régulièrement des dick pics sur Snapchat." ,
-  location: "LILLE - HAUT DE FRANCE ",
-  picture: "http://res.cloudinary.com/dk9kkvy1o/image/upload/v1537003993/Screen_Shot_2018-09-15_at_11.33.03_ibefr3.png"},
-  {name: "Nicolas" ,
-  description: "Ma femme avait de plus en plus de “réunions”. J’avais clairement l’impression que ça cachait quelque chose. Grâce à cheat, le doute a été levé. Cheat a trouvé une photo de ma femme en soirée sur les réseaux sociaux alors qu’elle prétendait être en voyage d’affaires.",
-  location: "ROUEN - NORMANDIE",
-  picture: "http://res.cloudinary.com/dk9kkvy1o/image/upload/v1537004162/Screen_Shot_2018-09-15_at_11.35.51_gzaqw7.png"},
-  { name: "Nathalie",
-  description: "J’ai perdu trop de temps sur les sites de rencontres avec des hommes qui gèrent plusieurs relations en même temps. Maintenant j’utilise Cheat pour vérifier le sérieux de mes futures rencontre avant de m’engager. Les hommes nous font perdre un temps." ,
-  location: "NIORT - NOUVELLE-AQUITAINE ",
-  picture: "http://res.cloudinary.com/dk9kkvy1o/image/upload/v1537004091/Screen_Shot_2018-09-15_at_11.34.48_d1lgie.png"}]
+      @feedbacks = [{name: "Maxime",
+  description: "Yes and be careful because I spread the training to all my team today ! Even if you do not get any entreprenarial idea in mind, this training allow I think to acquire a methodology for all creative projects" ,
+  location: "USER LEADER - DECATHLON ",
+  picture: "https://res.cloudinary.com/dk9kkvy1o/image/upload/v1540578658/0_7_hxr89f.jpg"},
+  {name: "Delphine" ,
+  description: "I loved this training. It's very concrete, dynamic and clear. It helps to understand clearly the concept of Lean Startup and to put it in practice with his own entrepreneurship. Even to accelerate it.",
+  location: "INTRAPRENEUR - DECATHLON",
+  picture: "https://res.cloudinary.com/dk9kkvy1o/image/upload/v1540578609/0_6_ox1qz5.jpg"},
+  { name: "RAVI",
+  description: "This training help to implement a culture of startuping, stimulat the teammates in order to trigger innovations. Concepts of Value Proposition and MVP are so well vulgarised and made it accessible." ,
+  location: "HR LEADER - DECATHLON INDIA ",
+  picture: "https://res.cloudinary.com/dk9kkvy1o/image/upload/v1540578995/0_8_zkdwfj.jpg"}]
   end
 end
