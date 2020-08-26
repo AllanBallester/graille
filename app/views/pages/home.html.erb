@@ -1,28 +1,16 @@
-<div class= "banner middle-pic" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://res.cloudinary.com/dk9kkvy1o/image/upload/v1540545435/photo-1519895173443-d259e1fc4962_pusz6p.jpg');">
+<div class= "banner middle-pic" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://res.cloudinary.com/dk9kkvy1o/image/upload/v1598465842/GrailleLyon-15_ahvmgk.jpg');">
   <div class="banner-content">
     <h1></i> </h1>
-    <p class="big p space"> Cuisine dès demain.</p>
-    <%= link_to "Me former", "https://calendly.com/threeincubatorr", class: "btn btn-yours" %>
+    <p class="big p space"> Cuisine Vegan Anti-Gaspi et Solidaire.</p>
+    <a class = "btn btn-yours" a href="https://linktr.ee/graillelyon" target="blank"> </i> Participer </a> </button>
   </div>
 </div>
 
 <div class="container" id="home-giders">
-  <h5 class= "text-center text-space"> Recommanderais-tu Three ? </h5>
   <div class="row">
-  <% first_feedback = true %>
-    <% @feedbacks.each do |gider| %>
-      <div class="col-xs-12 col-sm-6 col-md-4 <%= 'hidden-xs' unless first_feedback.present? %>">
-       <div class="testimonial">
-                        <div class="pic"><%= image_tag gider[:picture] %> </div>
-                        <h3 class="testimonial-title"><%= gider[:name] %></h3>
-                        <small class="post"><%= gider[:location] %></small>
-                        <p class="description">
-                            <%= gider[:description][0..285] %>
-                        </p>
-                    </div>
-      </div>
-    <% first_feedback = false %>
-    <% end %>
+    <iframe src="https://player.vimeo.com/video/450886047" width="380" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen ></iframe>
+  <iframe src="https://player.vimeo.com/video/439909555" width="380" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen class= "hidden-xs"></iframe>
+  <iframe src="https://player.vimeo.com/video/438613789" width="380" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen class= "hidden-xs hidden-md"></iframe>
   </div>
 
 </div>

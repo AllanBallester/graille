@@ -99,7 +99,7 @@ img {
 
 .btn-yours {
   text-decoration: none ;
-  background-color: #e485fc;
+  background-color: #be9b5b;
   color: white;
   border-radius : 4px;
   font-weight: bold;
@@ -110,7 +110,7 @@ img {
 
 .btn-fund {
   text-decoration: none ;
-  background-color: #e485fc;
+  background-color: #be9b5b;
   color: white;
   border-radius : 4px;
   font-weight: bold;
@@ -211,7 +211,7 @@ img {
   align-items: center;
 }
 .footer-links a {
-  color: #54a1a8;
+  color: #be9b5b;
   opacity: 0.8;
   text-decoration: none;
   font-size: 24px;
@@ -221,11 +221,26 @@ img {
   opacity: 1;
 }
 .footer .fa-heart {
-  color: #54a1a8;
+  color: #be9b5b;
 }
 
 .footer-copyright {
   font-size: 10px;
-  color: #e485fc;
+  color: #be9b5b;
 }
 
+.btn-donation {
+  text-decoration: none ;
+  background-color: #be9b5b;
+  color: white;
+  border-radius : 4px;
+  font-weight: bold;
+  font-size: 10px;
+  transition: all ease 0.3s;
+  padding: 6px 12px;
+  margin-right: 20px;
+}
+
+.margin.left {
+  margin-right: -100px;
+}
